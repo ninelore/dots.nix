@@ -79,11 +79,6 @@
     ];
   };
 
-  fileSystems."/var/lib/docker/overlay2/4268525029baf099c58f1b3836724523e4770a1f7b7b036740b39cae0c571a5c/merged" = {
-    device = "overlay";
-    fsType = "overlay";
-  };
-
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
